@@ -213,18 +213,6 @@ footer{
     justify-content: center;
 }
 
-#line{
-    margin: 2px;
-    border: 2px;
-    width: 99.9%;
-    height: 1px;
-    background-color: #70757a;
-    border: #70757a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #prefe{
     margin: 2px;
     padding: 2px;
