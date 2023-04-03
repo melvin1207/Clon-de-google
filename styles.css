@@ -228,7 +228,7 @@ footer{
 #prefe{
     margin: 2px;
     padding: 2px;
-    border: 2px;
+    border-top: #c3c9cf thin solid ;
     width: 99.5%;
     height: 30%;
     display: flex;
