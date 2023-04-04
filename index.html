@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+    <title>Clon de Google</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
         <section id="flexboxh">
             <div class="conth1">
-                <span>Gmail</span>
-                <span>Imagenes</span>
+                <span><a class="header-link" href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a></span>
+                <span><a class="header-link" href="https://www.google.com.mx/imghp?hl=es&ogbl">Imagenes</a></span>
             </div>
 
             <div class="conth2">
@@ -36,7 +36,7 @@
                 <svg  id="lupa" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg>
-                <input id="intro" type="text" placeholder="Search">
+                <input id="input-search" type="text">
             </div>
 
             <div id="n2">
@@ -51,8 +51,8 @@
             </div>
         </section>
         <section id="botones">
-            <span class="buscar">Buscar con Google</span>
-            <span class="buscar">Voy a tener suerte</span>
+            <span class="btn-search"><a id="search" href="https://www.google.com/search?q=car&hl=es&sxsrf=APwXEddkZqSskiKtxY2xOi711--fe5ZCPw%3A1680637530893&source=hp&ei=Wn4sZMKYNNnLkPIP-o26gAw&iflsig=AOEireoAAAAAZCyMaptKmmHQuBhn5APgLFWYejX7XJfh&ved=0ahUKEwjCrZfY_pD-AhXZJUQIHfqGDsAQ4dUDCBA&oq=car&gs_lcp=Cgdnd3Mtd2l6EAwyBAgjECcyBAgjECcyBAgjECcyCwgAEIAEELEDEIMBMgcIABCKBRBDMg0ILhCKBRDHARDRAxBDMgsIABCABBCxAxCDATINCC4QigUQxwEQ0QMQQzINCC4QigUQxwEQ0QMQQzIICC4QgAQQsQM6BwgjEOoCECc6DQguEMcBENEDEOoCECc6CAgAEIAEELEDOhAILhCKBRCxAxDHARDRAxBDOhEILhCABBCxAxCDARDHARDRAzoECC4QJ1CtE1jhGGCIKGgBcAB4AIAB2AWIAeILkgEJMy0xLjEuMC4xmAEAoAEBsAEK&sclient=gws-wiz">Buscar con Google</a></span>
+            <span class="btn-search"><a id="lucky" href="https://www.google.com/doodles">Voy a tener suerte</a></span>
         </section>
         <section id="rest">
             <span id="text">Ofrecido por Google en:</span>
@@ -64,15 +64,15 @@
         <section id="pais">Mèxico</section>
         <section id="prefe">
             <div id="cla1">
-                <div class="pre1">Sobre Google</div>
-                <div class="pre1">Publicidad</div>
-                <div class="pre1">Negocios</div>
-                <div class="pre3">Còmo funciona la Bùsqueda</div>
+                <div class="pre1"><a class="footer-link" href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></div>
+                <div class="pre1"><a class="footer-link" href="https://ads.google.com/intl/es_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></div>
+                <div class="pre1"><a class="footer-link" href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX">Negocios</a></div>
+                <div class="pre3"><a class="footer-link" href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona la Busqueda</a></div>
             </div>
             <div id="cla2">
-                <div class="pre2">Privacidad</div>
-                <div class="pre2">Condiciones</div>
-                <div class="pre2">Preferencias</div>
+                <div class="pre2"><a class="footer-link" href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a></div>
+                <div class="pre2"><a class="footer-link" href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a></div>
+                <div class="pre2"><a class="footer-link" href="">Preferencias</a></div>
             </div>
         </section>
     </footer>

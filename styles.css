@@ -29,6 +29,15 @@ header{
     align-items: center;
 }
 
+.header-link{
+    text-decoration: none;
+    color: #363636;
+}
+
+.header-link:hover{
+    text-decoration: underline;
+}
+
 .conth2{
     width: 40%;
     height: 80%;
@@ -112,7 +121,7 @@ main{
     
 }
 
-#intro{
+#input-search{
     width: 90%;
     border: 0;
     border: white;
@@ -148,7 +157,7 @@ main{
     align-items: center;
 }
 
-.buscar{
+.btn-search{
     margin: 10px;
     width: 10.92rem;
     height: 2.57rem;
@@ -159,8 +168,18 @@ main{
     justify-content: center;
 }
 
-.buscar:hover{
+.btn-search:hover{
     background-color: #d4d5d6;
+}
+
+#search{
+    text-decoration: none;
+    color: #70757a;
+}
+
+#lucky{
+    text-decoration: none;
+    color: #70757a;
 }
 
 #rest{
@@ -210,6 +229,7 @@ footer{
 
 #prefe{
     margin-left: 2rem;
+    margin-right: 2rem;
     border-top: #c3c9cf thin solid ;
     width: 98.5%;
     height: 3.28rem;
@@ -266,4 +286,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #70757a;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
 }
